@@ -5,6 +5,7 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names);
 console.log(names[0] + "je");
 console.log(names[1] + "je");
 console.log(names[2] + "je");
@@ -27,6 +28,9 @@ console.log(names[3] + "je");
 // ==========================================
 
 const numbers = [2, 4, 5, 29, 38];
+console.log(numbers);
+
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:

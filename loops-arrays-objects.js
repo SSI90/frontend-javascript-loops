@@ -9,15 +9,15 @@ const scores = [
     {name: 'Rianne', score: 66, grade: null}
 ];
 
+console.log(scores);
+
+
 // Verwachtte uitkomsten:
 // 83
 // 77
 // 92
 // 66
 // ==========================================
-
-
-
 
 
 // ==========================================
