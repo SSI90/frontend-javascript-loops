@@ -9,7 +9,7 @@ const scores = [
     {name: 'Rianne', score: 66, grade: null}
 ];
 
-console.log(scores);
+console.log(scores.score);
 
 
 // Verwachtte uitkomsten:
