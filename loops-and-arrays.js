@@ -5,6 +5,10 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+console.log(names[0] + "je");
+console.log(names[1] + "je");
+console.log(names[2] + "je");
+console.log(names[3] + "je");
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
