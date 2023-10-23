@@ -2,14 +2,21 @@
 // Opdracht 1a
 // Schrijf een script dat voor iedere student in de array de score (het getal uit de property "score") in de terminal print
 
-const scores = [
+const scores = [{name: String, score: numbers, grade: null},{name: String, score: numbers, grade: null},{name: String, score: numbers, grade: null},{name: String, score: numbers, grade: null}][
     {name: 'Max', score: 83, grade: null},
     {name: 'David', score: 77, grade: null},
     {name: 'Khalid', score: 92, grade: null},
     {name: 'Rianne', score: 66, grade: null}
 ];
 
-console.log(scores.score);
+console.log(scores.score[0]);
+console.log(scores.score[1]);
+console.log(scores.score[2]);
+console.log(scores.score[3]);
+
+
+
+
 
 
 // Verwachtte uitkomsten:
@@ -50,8 +57,10 @@ console.log(scores.score);
 // ==========================================
 
 
-
-
+scores.name.score.grade[0] = "B";
+scores.name.score.grade[1] = "C";
+scores.name.score.grade[2] = "A";
+scores.name.score.grade[3] = "D";
 
 // ==========================================
 // Opdracht 2
@@ -75,6 +84,14 @@ const NOVIEmployees = [
 //  ];
 // ==========================================
 
+const NOVIEmployees = [
+    {firstName: 'Nova', lastName: 'Eeken', email: 'Nova.Eeken@novi.nl'},
+  {firstName: 'Sam', lastName: 'Barnhoorn', email: 'Sam.Barnhoorn@novi.nl'},
+  {firstName: 'Tessa', lastName: 'Steur', email: 'Tessa.Steur@novi.nl'},
+  {firstName: 'Mark', lastName: 'Rensen', email: 'Mark.Rensen@novi.nl'},
+];
+
+console.log(NOVIEmployees);
 
 
 
